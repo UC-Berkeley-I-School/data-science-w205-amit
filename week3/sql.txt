@@ -1,0 +1,8 @@
+describe city;
+\d+ city
+select countrycode, count(*) from city group by countrycode;
+select * from country where countrycode="BRA";
+select * from country;
+select * from country where code='BRA';
+select countrycode, count(*) as num from city group by countrycode order by num
+desc;
